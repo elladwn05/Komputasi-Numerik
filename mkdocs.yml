@@ -1,0 +1,49 @@
+# Project information
+site_name: '(180411100126) Ella Dwi Novitasari'
+site_description: 'Repository Untuk Tugas'
+site_author: 'Ella Dwi Novitasari'
+site_url: 'https://elladwn05.github.io/'
+
+# Repository
+repo_name: 'Ella Dwi Novitasari'
+repo_url: 'https://github.com/elladwn05'
+
+# Copyright
+copyright: 'Copyright & copy; 2019 - 2020 Ella Dwi Novitasari'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  pallete:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+  # Customization
+  extra:
+    manifest: 'manifest.webmanifest'
+    social:
+      - type: 'github'
+        link: 'https://github.com/elladwn05'
+      - type: 'instagram'
+        link: 'https://instagram.com/elladwn__'
+      - type: 'linkedln'
+        link: ''
+
+  # Google Analytics
+  google_analytics:
+    - 'UA-XXXXXXXX-X'
+    - 'auto'
+
+  # Extension
+  markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: true
+  nav:
+    - home : index.md
