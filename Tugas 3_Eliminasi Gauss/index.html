@@ -295,6 +295,18 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Tugas 6_Persamaan Diferensial Biasa/" title="Persamaan Diferensial Biasa" class="md-nav__link">
+      Persamaan Diferensial Biasa
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -327,10 +339,10 @@
                 
                 <h1 id="eliminasi-gauss-jordan">Eliminasi Gauss Jordan</h1>
 <p>​           Eliminasi Gauss adalah suatu metode untuk mengoperasikan nilai-nilai di dalam matriks sehingga menjadi matriks yang lebih sederhana lagi dengan melakukan operasi baris sehingga matriks tersebut menjadi matriks yang baris. Ini dapat digunakan sebagai salah satu metode penyelesaian persamaan linear dengan menggunakan matriks, caranya dengan mengubah persamaan linear tersebut ke dalam matriks teraugmentasi dan mengoperasikannya. Setelah itu menjadi matriks baris dan lakukan substitusi balik untuk mendapatkan nilai dari variabel-variabel tersebut. Metode Eliminasi Gauss Jordan merupakan pengembangan metode eliminasi gauss hanya saja augmented matrik pada sebelah kiri dirubah menjadi matrik diagonal.</p>
-<p><img alt="" src="D:/SEMESTER 4/Komnum Lscfr/Komnum/docs/gauss.png" /></p>
+<p><img alt="gauss" src="https://user-images.githubusercontent.com/54586151/80272358-c3003600-86f2-11ea-86c8-31a064412838.png" /></p>
 <p><strong>Algoritma Gauss Jordan</strong></p>
-<h2 id="_1"><img alt="" src="D:/SEMESTER 4/Komputasi Numerik/algoritma_gauss.png" /></h2>
-<p><img alt="" src="D:/SEMESTER 4/Komnum Lscfr/Komnum/docs/algoritma_gauss1.png" /></p>
+<p><img alt="algoritma_gauss" src="https://user-images.githubusercontent.com/54586151/80272354-bf6caf00-86f2-11ea-8d7e-1347f34075b3.png" /></p>
+<p><img alt="algoritma_gauss1" src="https://user-images.githubusercontent.com/54586151/80272356-c1cf0900-86f2-11ea-9a75-1008091546f0.png" /></p>
 <p><strong>Listing Program</strong></p>
 <pre><code class="python">import numpy as np
 
@@ -404,7 +416,7 @@ Nilai X  1 = -2.333333333333332
 <p>Pivot yang dibentuk adalah a1.1,a2.2,dan a3.3 sehingga semua angka yang ada dibawah pivot akan dikonversikan menjadi nol sesuai hasil program dan hasil dari persamaan diatas menghasilkan x1=-2.333333333, x2=-0.22988505 dan x3=3.2413793</p>
 <h1 id="eliminasi-gauss-jacobi">Eliminasi Gauss Jacobi</h1>
 <p>​           Metode Iterasi Jacobi merupakan salah satu bidang analisis numerik yang digunakan untuk menyelesaikan permasalahan persamaan linier dan sering dijumpai dalam berbagai disiplin ilmu. Metode Iterasi Jacobi merupakan salah satu metode tak langsung yaitu bermula dari suatu hampiran penyelesaian awal dan kemudian berusaha memperbaiki hampiran dalam tak berhingga namun langkah konvergen. Metode Iterasi Jacobi ini digunakan untuk menyelesaikan persamaan Linier berukuran besar dan proporsi koefisien nolnya besar. Metode ini ditemukan oleh Matematikawan yang berasal dari Jerman,Carl,Gustav,Jacobi. Penemuan ini diperkirakan pada tahun 1800-an.</p>
-<p><img alt="jacobi" src="D:/SEMESTER 4/Komnum Lscfr/Komnum/docs/jacobi.png" /></p>
+<p><img alt="jacobi" src="https://user-images.githubusercontent.com/54586151/80272361-c4316300-86f2-11ea-94a6-b549526ec750.png" /></p>
 <p><strong>Listing Program</strong></p>
 <pre><code class="python">from pprint import pprint
 from numpy import array, zeros, diag, diagflat, dot
@@ -481,7 +493,7 @@ array([1.50602413, 3.13253016, 2.6506024 ])
 </code></pre>
 
 <h1 id="program-gauss-seidel">Program Gauss Seidel</h1>
-<p><img alt="seidel" src="D:/SEMESTER 4/Komnum Lscfr/Komnum/docs/gauss_seidel.png" /></p>
+<p><img alt="gauss_seidel" src="https://user-images.githubusercontent.com/54586151/80272360-c398cc80-86f2-11ea-9261-9f6ce3c5a805.png" /></p>
 <p><strong>Listing Program</strong></p>
 <pre><code class="python">def seidel(a, x ,b): 
     #Mencari Panjang Matrix  

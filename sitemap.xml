@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://elladwn05.github.io/</loc>
-     <lastmod>2020-04-02</lastmod>
+     <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://elladwn05.github.io/Tugas 1_Numerical Solution of Algebraic and Transcendental Equation/</loc>
-     <lastmod>2020-04-02</lastmod>
+     <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://elladwn05.github.io/Tugas 2_Error in Numerical Computations/</loc>
-     <lastmod>2020-04-02</lastmod>
+     <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://elladwn05.github.io/Tugas 3_Eliminasi Gauss/</loc>
-     <lastmod>2020-04-02</lastmod>
+     <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://elladwn05.github.io/Tugas 4_Romberg/</loc>
-     <lastmod>2020-04-02</lastmod>
+     <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://elladwn05.github.io/Tugas 5_Turunan Numerik/</loc>
-     <lastmod>2020-04-02</lastmod>
+     <lastmod>2020-04-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://elladwn05.github.io/Tugas 6_Persamaan Diferensial Biasa/</loc>
+     <lastmod>2020-04-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
